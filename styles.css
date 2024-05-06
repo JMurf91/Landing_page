@@ -5,7 +5,7 @@ body {
 
 .header {
     background-color: #1F2937;
-    color: silver;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,4 +26,34 @@ li, a {
     text-decoration: none;
     list-style: none;
     color: silver;
+}
+
+/* Title Card */
+
+.titlecard {
+    background-color: #1F2937;
+}
+
+.heading1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.heading2 {
+    font-size: 18px;
+    color: silver;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+    border-radius: 12px;
 }
