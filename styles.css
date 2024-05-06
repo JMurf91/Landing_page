@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 48px;
 }
 
 .logo {
@@ -19,7 +20,7 @@ body {
 
 .links {
     display: flex;
-    gap: 24px;
+    gap: 36px;
 }
 
 li, a {
