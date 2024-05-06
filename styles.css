@@ -32,6 +32,18 @@ li, a {
 
 .titlecard {
     background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    max-width: 600px;
+    gap: 16px;
 }
 
 .heading1 {
@@ -50,10 +62,15 @@ button {
     border-radius: 12px;
     color: white;
     font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    width: 150px;
 }
 
 img {
     height: 300px;
-    width: 400px;
+    width: 600px;
     border-radius: 12px;
 }
