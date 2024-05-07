@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 48px;
+    border-bottom: 1px #F9FAF8 solid;
 }
 
 .logo {
@@ -45,17 +45,21 @@ li, a {
     padding: 50px;
     max-width: 600px;
     gap: 16px;
+    margin-top: 36px;
+    margin-bottom: 48px;
 }
 
 .heading1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
+    width: 500px;
 }
 
 .heading2 {
     font-size: 18px;
     color: silver;
+    width: 550px;
 }
 
 button {
@@ -66,8 +70,9 @@ button {
     font-size: 18px;
     display: flex;
     justify-content: center;
-    padding: 8px;
+    padding: 12px;
     width: 150px;
+    border: none;
 }
 
 .dog {
@@ -75,6 +80,8 @@ button {
     height: 300px;
     width: 500px;
     border-radius: 12px;
+    margin-bottom: 48px;
+    margin-top: 36px;
 }
 
 /* Infomation Section */
