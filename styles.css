@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
 }
 
@@ -117,3 +117,19 @@ button {
     gap: 16px;
 }
 
+/* Quote Section */
+
+.quoting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote {
+    width: 700px;
+    padding: 100px;
+}
