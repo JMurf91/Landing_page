@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-.header {
+.header, .footer {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
@@ -72,7 +72,7 @@ button {
     justify-content: center;
     padding: 12px;
     width: 150px;
-    border: none;
+    border: 2px white solid;
 }
 
 .dog {
@@ -155,4 +155,29 @@ button {
     color: #1F2937;
     font-weight: bolder;
     padding-right: 16px;
+}
+
+/* Call 2 Action Section */
+
+.call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call2act {
+    background-color: #3882F6;
+    border-radius: 12px;
+    color: white;
+    padding: 16px;
+    display: flex;
+}
+
+.calltext {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.callsmall {
+    font-size: 12px;
 }
