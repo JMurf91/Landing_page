@@ -134,7 +134,7 @@ button {
 }
 
 .quote {
-    width: 900px;
+    width: 800px;
     margin-top: 100px;
     padding-bottom: 26px;
     color: #1F2937;
@@ -163,21 +163,36 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 370px;
 }
 
 .call2act {
     background-color: #3882F6;
-    border-radius: 12px;
+    border-radius: 6px;
     color: white;
-    padding: 16px;
+    padding: 36px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 56px;
 }
 
 .calltext {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 .callsmall {
-    font-size: 12px;
+    font-size: 18px;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+p {
+    padding: 24px;
 }
